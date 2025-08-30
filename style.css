@@ -27,6 +27,11 @@ body {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.form-caixa.active {
+    display: block;
 }
 
 h2 {
@@ -35,7 +40,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-input {
+input,
+select {
     width: 100%;
     padding: 12px;
     background: #eee;
